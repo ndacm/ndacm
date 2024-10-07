@@ -1,0 +1,9 @@
+node_modules/
+
+.vitepress
+!./vitepress/config.ts
+
+# lock files
+package-lock.json
+yarn.lock
+bun.lockb
