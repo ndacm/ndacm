@@ -5,7 +5,9 @@ layout: home
 hero:
   name: "Notre Dame"
   text: "Student Chapter of ACM"
-  tagline: "Supporting all Domers in their pursuit of careers and interests in computing."
+  tagline:
+    "Supporting all Domers in their pursuit of careers and interests in
+    computing."
   actions:
     - theme: brand
       text: Read the Updates (coming soon)
@@ -22,4 +24,3 @@ features:
   - title: Hack & Dev
     details: Coming soon
 ---
-
