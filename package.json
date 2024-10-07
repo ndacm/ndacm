@@ -15,7 +15,9 @@
     "build": "vitepress build",
     "preview": "vitepress preview",
     "format": "prettier --write .",
-    "format:check": "prettier --check ."
+    "format:check": "prettier --check .",
+    "lint": "markdownlint-cli2 --fix \"**.md\"",
+    "lint:check": "markdownlint-cli2 \"**.md\""
   },
   "type": "module"
 }
