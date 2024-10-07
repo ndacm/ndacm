@@ -19,7 +19,8 @@
     "lint": "markdownlint-cli2 --fix \"**.md\"",
     "lint:check": "markdownlint-cli2 \"**.md\"",
     "spellcheck": "cspell --fix \"**.md\"",
-    "spellcheck:check": "cspell --fix \"**.md\""
+    "spellcheck:check": "cspell \"**.md\"",
+    "test": "bun run lint:check && bun run spellcheck:check && bun run format:check"
   },
   "type": "module"
 }
