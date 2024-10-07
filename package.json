@@ -17,7 +17,9 @@
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "lint": "markdownlint-cli2 --fix \"**.md\"",
-    "lint:check": "markdownlint-cli2 \"**.md\""
+    "lint:check": "markdownlint-cli2 \"**.md\"",
+    "spellcheck": "cspell --fix \"**.md\"",
+    "spellcheck:check": "cspell --fix \"**.md\""
   },
   "type": "module"
 }
