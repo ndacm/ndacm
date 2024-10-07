@@ -1,5 +1,7 @@
-.vitepress/cache
 node_modules/
+
+.vitepress
+!./vitepress/config.ts
 
 # lock files
 package-lock.json
