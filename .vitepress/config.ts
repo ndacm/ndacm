@@ -32,6 +32,7 @@ function sidebarPD(): DefaultTheme.SidebarItem[] {
       base: "/pd/resume",
       items: [
         { text: "Introduction", link: "/" },
+        { text: "Accomplishment Statements", link: "/accomplishment" },
         { text: "Formatting Checklist", link: "/formatting" },
         { text: "Templates (coming soon)", link: "404" },
       ],
