@@ -1,4 +1,4 @@
-import { defineConfig } from "vitepress";
+import { DefaultTheme, defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -9,19 +9,32 @@ export default defineConfig({
     nav: [
       { text: "Home", link: "/" },
       { text: "Updates", link: "/" },
-      { text: "CSE Manual", link: "/" },
+      { text: "ProDev", link: "/pd" },
     ],
 
-    sidebar: [
-      {
-        text: "Examples",
-        items: [
-          { text: "Markdown Examples", link: "/markdown-examples" },
-          { text: "Runtime API Examples", link: "/api-examples" },
-        ],
-      },
-    ],
+    sidebar: {
+      "/updates/": { base: "/updates/", items: sidebarUpdates() },
+      "/pd/": { base: "/pd/", items: sidebarPD() },
+    },
 
     socialLinks: [{ icon: "github", link: "https://github.com/ndacm" }],
   },
 });
+
+function sidebarUpdates(): DefaultTheme.SidebarItem[] {
+  return [];
+}
+
+function sidebarPD(): DefaultTheme.SidebarItem[] {
+  return [
+    {
+      text: "Resume",
+      base: "/pd/resume",
+      items: [
+        { text: "Introduction", link: "/" },
+        { text: "Templates (coming soon)", link: "404" },
+      ],
+    },
+    { text: "Coming Soon" },
+  ];
+}
