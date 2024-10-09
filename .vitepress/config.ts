@@ -4,6 +4,8 @@ import { DefaultTheme, defineConfig } from "vitepress";
 export default defineConfig({
   title: "Notre Dame ACM Student Chapter",
   description: "The official website of the Notre Dame ACM Student Chapter",
+  lastUpdated: true,
+
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -18,6 +20,11 @@ export default defineConfig({
     },
 
     socialLinks: [{ icon: "github", link: "https://github.com/ndacm" }],
+
+    editLink: {
+      pattern: "https://github.com/ndacm/ndacm/edit/main/:path",
+      text: "Edit this page on GitHub",
+    },
   },
 });
 
