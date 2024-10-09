@@ -11,7 +11,7 @@ export default defineConfig({
     nav: [
       { text: "Home", link: "/" },
       { text: "Updates", link: "/" },
-      { text: "ProDev", link: "/pd" },
+      { text: "ProDev", link: "/pd", activeMatch: "/pd/*" },
     ],
 
     sidebar: {
