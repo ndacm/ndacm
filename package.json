@@ -10,7 +10,7 @@
     "lint:check": "markdownlint-cli2 \"**.md\"",
     "preview": "vitepress preview",
     "spellcheck": "cspell \"**.md\"",
-    "test": "bun run lint:check && bun run format:check bun run spellcheck"
+    "test": "bun run lint:check && bun run format:check && bun run spellcheck"
   },
   "devDependencies": {
     "cspell": "^8.14.4",
