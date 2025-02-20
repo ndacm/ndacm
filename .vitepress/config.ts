@@ -19,7 +19,12 @@ export default defineConfig({
       "/pd/": { base: "/pd/", items: sidebarPD() },
     },
 
-    socialLinks: [{ icon: "github", link: "https://github.com/ndacm" }],
+    socialLinks: [
+      { icon: "github", link: "https://github.com/ndacm" },
+      { icon: "discord", link: "https://discord.gg/HWZaUbTbwb" },
+      { icon: "linkedin", link: "https://linkedin.com/company/ndcomputer" },
+      { icon: "instagram", link: "https://instagram.com/computerclubnd" },
+    ],
 
     editLink: {
       pattern: "https://github.com/ndacm/ndacm/edit/main/:path",
