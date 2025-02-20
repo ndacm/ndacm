@@ -12,6 +12,8 @@ hero:
     - theme: brand
       text: Get Involved
       link: "https://forms.gle/AegKAajuyehZk8L16"
+  image:
+    src: /logo.png
 
 features:
   - title: Career Growth
