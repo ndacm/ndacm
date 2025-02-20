@@ -17,8 +17,7 @@ hero:
       link: /
     - theme: brand
       text: Subscribe to our newsletter
-      link: "mailto:acm-list+subscribe@nd.edu?subject=Subscribe to ACM mailing
-      list&body=Please send this email to subscribe to the ACM mailing list. (Make sure you're using your ND email address.)"
+      link: "https://forms.gle/AegKAajuyehZk8L16"
 
 features:
   - title: Career Growth
