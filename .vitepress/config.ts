@@ -5,6 +5,7 @@ export default defineConfig({
   title: "Notre Dame ACM Student Chapter",
   description: "The official website of the Notre Dame ACM Student Chapter",
   lastUpdated: true,
+  cleanUrls: true,
 
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
