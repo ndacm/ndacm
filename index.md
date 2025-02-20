@@ -23,10 +23,16 @@ features:
   - title: Career Growth
     details:
       Advance your career in SWE, Analytics, IT, AI, Tech Consulting, and more.
+  - title: Q&A
+    details: Got a coding or development question? You’re in the right place!"
   - title: Competitive Programming
-    details: Compete with great minds from the world, for Notre Dame.
+    details: Compete against the world's brightest minds -- for Notre Dame.
   - title: Hack & Dev
-    details: Learn the trending tech stacks and build things.
+    details:
+      Master the different tech stacks and create innovative projects that stand
+      out.
   - title: Productivity
-    details: Boost your daily productivity by using your computer smartly.
+    details:
+      Supercharge your daily productivity by leveraging your computer's full
+      potential.
 ---
