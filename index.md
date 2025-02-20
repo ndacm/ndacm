@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "Notre Dame"
-  text: "Student Chapter of ACM"
+  text: "Computer Club"
   tagline:
     "Supporting all Domers in their pursuit of careers and interests in
     computing."
@@ -21,9 +21,12 @@ hero:
 
 features:
   - title: Career Growth
-    details: Coming soon
+    details:
+      Advance your career in SWE, Analytics, IT, AI, Tech Consulting, and more.
   - title: Competitive Programming
-    details: Coming soon
+    details: Compete with great minds from the world, for Notre Dame.
   - title: Hack & Dev
-    details: Coming soon
+    details: Learn the trending tech stacks and build things.
+  - title: Productivity
+    details: Boost your daily productivity by using your computer smartly.
 ---
