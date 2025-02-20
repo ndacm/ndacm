@@ -1,0 +1,3 @@
+# Redirecting to Sign-up Form...
+
+<meta http-equiv="refresh" content="0; url=https://forms.gle/AegKAajuyehZk8L16">

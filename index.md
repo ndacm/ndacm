@@ -15,6 +15,9 @@ hero:
     - theme: alt
       text: CSE Manual (coming soon)
       link: /
+    - theme: brand
+      text: Subscribe to our newsletter
+      link: "https://forms.gle/AegKAajuyehZk8L16"
 
 features:
   - title: Career Growth
