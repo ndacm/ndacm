@@ -1,3 +1,4 @@
 line-length:
   code_blocks: false # caught by prettier
   tables: false
+no-inline-html: false
