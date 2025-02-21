@@ -2,8 +2,8 @@ import { DefaultTheme, defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Notre Dame ACM Student Chapter",
-  description: "The official website of the Notre Dame ACM Student Chapter",
+  title: "Notre Dame Computer Club (ACM Student Chapter)",
+  description: "The official website the Notre Dame Computer Club",
   lastUpdated: true,
   cleanUrls: true,
 
