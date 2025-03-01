@@ -9,3 +9,6 @@ package-lock.json
 yarn.lock
 bun.lockb
 tags.lock
+
+# .gitignore
+.env
