@@ -22,8 +22,8 @@
 import { ref, onMounted } from 'vue'
 import axios from 'axios'
 
-const API_KEY = 'AIzaSyD_g_jMqxOEawvllobMWFrCbh4TS0zyxic'
-const CALENDAR_ID = 'c_2941f4105f3c011b8ac81c6db47410e3f98fe4129bf84f9ef7bf74ce12c3cd0f@group.calendar.google.com'
+const API_KEY = import.meta.env.VITE_GOOGLE_CALENDAR_API_KEY
+const CALENDAR_ID = import.meta.env.VITE_GOOGLE_CALENDAR_ID
 
 const events = ref([])
 
@@ -58,7 +58,7 @@ onMounted(async () => {
     
     // filter out past events and events includes "board" (case-insensitive)
     const upcoming = data.items
-    
+
       .filter((event) => {
         // exclude events that have "board" in the summary
         if (event.summary && event.summary.toLowerCase().includes('board')) {
