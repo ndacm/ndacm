@@ -32,3 +32,14 @@ features:
       Supercharge your daily productivity by leveraging your computer's full
       potential.
 ---
+
+<br><br>
+
+---
+
+<script setup>
+import EventList from '/calender.vue'
+</script>
+
+
+<EventList />
